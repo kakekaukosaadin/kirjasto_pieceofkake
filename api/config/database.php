@@ -3,9 +3,9 @@ class Database{
 
     // specify your own database credentials
     private $host = "localhost";
-    private $db_name = "plstoimi_psprkirjasto";
-    private $username = "plstoimi_secuser";
-    private $password = "8Xh)M*sJo4uQ";
+    private $db_name = "--";
+    private $username = "--";
+    private $password = "--";
     public $conn;
 
     // get the database connection
