@@ -1,0 +1,77 @@
+/* login screen styling*/
+
+.login-body {
+    background-image: url("/app/assets/images/hmlskytausta.jpg");
+}
+
+.login-screen {
+    margin-top: 20%;
+    background-color: white;
+}
+
+.loginbox {
+    margin: 0 auto;
+}
+
+.loginbox h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.loginboxnappi {
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+}
+
+.loginboxnappi .g-signin2{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.loginboxnappi .g-signin2 > div{
+    margin: 0 auto;
+}
+
+/* kirjasto page styling */
+
+.kirjasto-body {
+    background-image: url("/app/assets/images/hmlskytausta.jpg");
+}
+
+#app {
+    background-color: white;
+    margin: 5% 5%;
+}
+
+.hmlskylogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+footer {
+    background-color: white;
+    height: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+}
+
+.table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+th, td{
+    word-wrap: break-word;
+    font-size: 2vw;
+}
+
+.update-product-button {
+    font-size: 2vw;
+    padding: 1vw 1vw;
+}
+
